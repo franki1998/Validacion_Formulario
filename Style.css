@@ -1,0 +1,30 @@
+#cabecera{
+    background-image: url("cabecera.jpg");
+    width:600px;
+    height:210px;
+    margin: 1px;
+    border-radius: 20px;
+}
+
+body {
+  font  : 21px sans-serif;
+  padding: 60px;
+  background-image: url("fondo.jpg");
+}
+#botonfinal{
+    background-color: rgb(78, 70, 70);
+    font-family : Georgia;
+}
+
+h1,h2,td,p{
+  color: aliceblue;
+}
+div{
+  background-color: rgb(148, 148, 148);
+  width:520px;
+  margin: 5px;
+  border-radius: 20px;
+}
+#fecha{
+  border-radius: 40px;
+}
