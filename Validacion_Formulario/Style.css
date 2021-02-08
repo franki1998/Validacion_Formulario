@@ -1,0 +1,39 @@
+#cabecera{
+    background-image: url("cabecera.jpg");
+    width:600px;
+    height:180px;
+    margin: 1px;
+    border-radius: 20px;
+}
+
+body {
+  font  : 21px sans-serif;
+  padding: 60px;
+  background-image: url("fondo.jpg");
+}
+#botonfinal{
+    background-color: #3c39db;
+    font-family: 'Product Sans';
+    font-style: normal;
+}
+
+h1,h2{
+  color:#3c39db;
+  font-family: 'Product Sans';
+  font-style: normal;
+}
+td,p{
+  color:#000000;
+  font-family: 'Product Sans';
+  font-style: normal;
+}
+div{
+  background-image: url("2cabecera.jpg");
+  align-items: center;
+  width:1250px;
+  margin: 5px;
+  border-radius: 20px;
+}
+#fecha{
+  border-radius: 40px;
+}

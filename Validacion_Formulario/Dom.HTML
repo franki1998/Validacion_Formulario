@@ -1,0 +1,59 @@
+<html>
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+
+<head id="cabecera">
+  <center>
+    <H1>Concuro De Google Sheets</H1>
+  </center>
+  <center>
+    <H2 id="cabecera">Formulario De Inscripcion </H2>
+  </center>
+</head>
+
+<body>
+
+  <center>
+
+    <form>
+      <div >
+        <p>.....................................................................</p>
+        <p>Nombre: <input type="text" name="nombre" size="45" id="campoNombre" ></p>
+
+        <p>Apellidos: <input type="text" name="apellidos" size="44"  id="campoApellido"></p>
+
+
+        <p>Numero Telefono: <input type="text" name="NumeroTlf" size="33" id="campoTlf" > </p>
+
+
+        <p>Nombre Usuario: <input type="text" name="NombreUsuario" size="34" id="campoUsuario"></p>
+
+
+        <p>Correo Electronico <input type="text" name="Correo" size="32" id="campoCorreo"></p>
+
+        <p> Fecha de nacimiento: <input type="date" name="fecha" id="fecha"></p> 
+     
+        <p>Sexo:
+          <input type="radio" name="m" value="h"> Hombre
+          <input type="radio" name="m" value="m"> Mujer
+          <input type="radio" name="m" value="o"> Otro
+        </p>
+        <p>.....................................................................</p>
+
+      </div>
+
+     
+      
+
+        <p id="cajaDeAbajo">
+        <input onclick="validar()" type="button" value="Enviar"   id="botonfinal">
+        <input type="reset" value="Borrar" id="botonfinal">
+        </p>
+
+    </form>
+
+  </center>
+  <script language="JavaScript" type="text/javascript" src="Formulario.js"></script>
+</body>
+
+</html>
